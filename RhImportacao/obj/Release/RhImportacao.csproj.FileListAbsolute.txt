@@ -1,0 +1,11 @@
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\RhImportacao.exe.config
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\RhImportacao.exe
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\RhImportacao.pdb
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\Excel.dll
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\bin\Release\Excel.pdb
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\obj\Release\RhImportacao.csprojAssemblyReference.cache
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\obj\Release\RhImportacao.csproj.CoreCompileInputs.cache
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\obj\Release\RhImportacao.csproj.CopyComplete
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\obj\Release\RhImportacao.exe
+C:\Projetos\Cencosud\RhImportacao\RhImportacao\obj\Release\RhImportacao.pdb
