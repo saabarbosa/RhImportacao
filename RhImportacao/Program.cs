@@ -109,7 +109,7 @@ namespace RhImportacao
                 Console.WriteLine(ex.Message);
                 
             }
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
 
