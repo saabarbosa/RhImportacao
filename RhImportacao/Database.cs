@@ -107,12 +107,14 @@ namespace RhImportacao
 
             int? nrLinhas;
             SqlConnection con = new SqlConnection();
+         
             con.ConnectionString = Util.CONNECTION_STRING;
 
             try
             {
                 SqlCommand comm = new SqlCommand();
                 comm.Connection = con;
+                comm.CommandTimeout = 300;
                 comm.CommandText = sqlInsert.ToString();
                 con.Open();
 

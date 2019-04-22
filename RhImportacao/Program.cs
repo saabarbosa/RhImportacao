@@ -87,7 +87,7 @@ namespace RhImportacao
                             }
                             DateTime fim = DateTime.Now;
                             TimeSpan ts = fim - inicio;
-                            Console.WriteLine((!String.IsNullOrEmpty(result))? "Dado(s) atualizado(s) com sucesso. " + result + " reg(s) em " + Math.Round(ts.TotalSeconds).ToString() + " segundo(s)." : "Erro ao tentar importar a planilha. Contate o adm do sistema.{"+ result +"}");
+                            Console.WriteLine((!String.IsNullOrEmpty(result))? "Dado(s) atualizado(s) com sucesso. {" + result + "} reg(s) em " + Math.Round(ts.TotalSeconds).ToString() + " segundo(s)." : "Erro ao tentar importar a planilha. Contate o adm do sistema.{"+ result +"}");
                         }
                         else
                         {
@@ -154,7 +154,7 @@ namespace RhImportacao
 
                 }
                 retorno = Database.Inserir(sb);
-                return "{" + retorno.ToString() + "} " + (posLinha-1).ToString();
+                return retorno.ToString();
             }
             else
             {
@@ -219,7 +219,7 @@ namespace RhImportacao
 
                 }
                 retorno = Database.Inserir(sb);
-                return "{" + retorno.ToString() + "} " + (posLinha - 1).ToString();
+                return retorno.ToString();
             }
             else
             {
